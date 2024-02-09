@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_container {
+            border: 20px solid rgb(43, 44, 41);
+            width: 70%;
+            margin: 250px auto;
+            background-color: rgba(12, 121, 121, 0.747);
+        }
+
+        .row_frist,
+        .row_second {
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: repeat(14, 1fr);
+            padding: 5px;
+            gap: 5px;
+
+        }
+
+        .row_third {
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: repeat(13, 1fr);
+            padding: 5px;
+            gap: 5px;
+        }
+
+        .row_fourth {
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            padding: 5px;
+            gap: 5px;
+        }
+
+        .row_fifth {
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            padding: 5px;
+            gap: 5px;
+        }
+
+        .row_frist div,
+        .row_second div,
+        .row_third div,
+        .row_fourth div,
+        .row_fifth div {
+            /* border: 1px solid blue; */
+            height: 50px;
+            border-radius: 5px;
+            display: grid;
+            place-items: center;
+            border-radius: 52px;
+            color: white;
+            background: rgb(24, 23, 23);
+            border-radius: 31px;
+            font-weight: bold;
+            border-radius: 15px;
+            border-radius: 6px;
+            /* background: #e2e0e57e;
+            box-shadow: 5px 5px 0px #5a5a5c,
+                -5px -5px 0px #ffffff; */
+
+        }
+
+        .row_frist div div,
+        .row_second div div,
+        .row_third div div,
+        .row_fourth div div,
+        .row_fifth div div {
+            border-radius: 20px;
+            background: #e0e0e0;
+            box-shadow: inset 16px 16px 2px #969696,
+                inset -16px -16px 2px #ffffff;
+
+        }
+
+        .delete,
+        .Enter,
+        .tab {
+            width: 120px;
+        }
+
+        .Capslock,
+        .shift1 {
+            width: 150px;
+        }
+
+        .shift {
+            width: 200px;
+        }
+
+        .Space {
+            width: 650px;
+        }
+
+        .row_frist div:hover {
+            background-color: lightskyblue;
+        }
+
+        .row_second div:hover {
+            background-color: lightskyblue;
+        }
+
+        .row_third div:hover {
+            background-color: lightskyblue;
+        }
+
+        .row_fourth div:hover {
+            background-color: lightskyblue;
+        }
+
+        .row_fifth div:hover {
+            background-color: lightskyblue;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2><a href="./index.html">Task-1</a></h2>
+    <div class="main_container">
+        <div class="row_frist">
+            <div>~</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>0</div>
+            <div>-</div>
+            <div>+</div>
+            <div class="delete">Delete</div>
+        </div>
+        <div class="row_second">
+            <div class="tab">Tab</div>
+            <div>Q</div>
+            <div>W</div>
+            <div>E</div>
+            <div>R</div>
+            <div>T</div>
+            <div>Y</div>
+            <div>U</div>
+            <div>I</div>
+            <div>O</div>
+            <div>P</div>
+            <div>[</div>
+            <div>]</div>
+            <div>\</div>
+        </div>
+        <div class="row_third">
+            <div class="Capslock">Capslock</div>
+            <div>A</div>
+            <div>S</div>
+            <div>D</div>
+            <div>F</div>
+            <div>G</div>
+            <div>H</div>
+            <div>J</div>
+            <div>K</div>
+            <div>L</div>
+            <div>;</div>
+            <div>'</div>
+            <div class="Enter">Enter</div>
+        </div>
+        <div class="row_fourth">
+            <div class="shift">Shift</div>
+            <div>Z</div>
+            <div>X</div>
+            <div>C</div>
+            <div>V</div>
+            <div>B</div>
+            <div>N</div>
+            <div>M</div>
+            <div>,</div>
+            <div>.</div>
+            <div>/</div>
+            <div class="shift1">Shift</div>
+        </div>
+        <div class="row_fifth">
+            <div>Ctrl</div>
+            <div>Alt</div>
+            <div>Command</div>
+            <div class="Space">Space</div>
+            <div>Command</div>
+            <div>Alt</div>
+            <div>Ctrl</div>
+            <div>Fn</div>
+        </div>
+    </div>
+</body>
+
+</html>
